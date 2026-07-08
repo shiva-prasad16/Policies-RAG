@@ -88,7 +88,7 @@ def load_models():
 
     client = OpenAI(
         base_url="https://integrate.api.nvidia.com/v1",
-        api_key="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"
+        api_key=st.secrets["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"]
     )
 
     return embedding_model, client

@@ -10,7 +10,7 @@ from sentence_transformers import SentenceTransformer
 # CONFIGURATION
 # ==========================================================
 
-PDF_FOLDER = "policies"
+PDF_FOLDER = "."
 
 CHUNK_SIZE = 800
 CHUNK_OVERLAP = 150
